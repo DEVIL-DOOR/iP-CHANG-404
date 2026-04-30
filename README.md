@@ -21,16 +21,11 @@
 
 ### 1. Update & Install Dependencies (Termux/Linux)
 ```bash
-Command
 
 pkg update && pkg upgrade -y
-
 pkg install python tor -y
-
 pip install requests stem colorama
-
 git clone https://github.com/DEVIL-DOOR/iP-CHANG-404
-
+cd iP-CHANG-404
 pkill tor
-
 python IP-404.py
